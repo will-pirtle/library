@@ -14,20 +14,20 @@
     </div>
     <button id="new-book" class="new-book">New Book</button>
     <div class="popup">
-      <form action="" class="form-container">
+      <form id="popup-form" action="" class="form-container">
         <span id="close-btn" class="close-btn">x</span>
         <h1>Add New Book</h1>
         <div class="form-group">
           <label for="title">Title:</label>
-          <input type="text" name="title" required>
+          <input type="text" id="title" required>
         </div>
         <div class="form-group">
           <label for="author">Author:</label>
-          <input type="text" name="author" required>
+          <input type="text" id="author" required>
         </div>
         <div class="form-group">
           <label for="pages">Pages:</label>
-          <input type="number" name="pages" min="0" required>
+          <input type="number" id="pages" min="0" required>
         </div>
         <div class="form-group">
           <label for="read">Read?</label>
